@@ -1,6 +1,7 @@
 import styles from "./livraria.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Banner from "../components/banner/banner";
  
  export default function Home() {
    // Dados que seriam obtidos de uma API
@@ -143,19 +144,7 @@ import Footer from "../components/footer";
      <div className={styles.bookstoreContainer}>
        {/* HEADER */}
       <Header />
- 
-       {/* HERO BANNER */}
-       <section className={styles.heroBanner}>
-         <div className={styles.heroContent}>
-           <h2 className={styles.heroHeading}>
-             Descubra mundos extraordinários
-           </h2>
-           <p className={styles.heroParagraph}>
-             Promoção de lançamentos com até 30% de desconto!
-           </p>
-           <button className={styles.ctaButton}>Ver ofertas</button>
-         </div>
-       </section>
+       <Banner />
  
        {/* FEATURED BOOKS SECTION */}
        <section className={styles.bookSection}>
