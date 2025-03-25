@@ -1,2 +1,10 @@
-# atividade: Componentização de Loja de Livros Online com React
-## foi realizada a componentização da livraria pelo github.
+#  Componentização de Loja de Livros Online com React
+### Descrição
+
+Atividade: Componentização de Loja de Livros Online com React
+
+###     Componetização 
+Header
+Footer
+Hero Banner
+Destaques
